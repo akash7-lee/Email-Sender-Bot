@@ -1,36 +1,16 @@
-Automatic Resume Sender (MERN + Python)
+This is a Python-based automatic resume sending tool that allows you to send your resume to multiple recruiters at once using Gmail SMTP.
+It is simple, fast, and perfect for job seekers who want to automate outreach.
 
-This project helps job seekers automatically send their resumes to recruiters using two different approaches:
+⭐ Features
 
-MERN Stack (MongoDB, Express, React, Node.js) – A full-stack web application where users upload their resume, enter recruiter emails, and send resumes from the browser.
+ Sends your resume automatically to any number of recruiters
 
-Python Automation Script – A simple command-line tool that automatically sends your resume using Gmail SMTP.
+ Supports PDF resume attachments
 
-You can use any one or both in your workflow.
+ Loops through a list of recruiter emails
 
-📌 Features
- MERN Stack Version
+ Uses Gmail App Password for secure login
 
-Upload your resume (PDF only)
+ Easy to customize message, subject, and file
 
-Store recruiter email list
-
-Backend triggers email sending using Node.js + Nodemailer
-
-Fully customizable UI
-
-Stores email logs in MongoDB
-
-Clean folder structure
-
- Python Script Version
-
-Simple automation using Gmail SMTP
-
-Reads recruiters from a text file or list
-
-Sends personalized emails
-
-Works offline without database or frontend
-
-Great for quick bulk emailing
+ 100% Python — no backend, no frontend needed
